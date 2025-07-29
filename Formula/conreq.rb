@@ -5,21 +5,21 @@
 class Conreq < Formula
   desc "CLI tool to send concurrent HTTP requests for API behavior verification"
   homepage "https://github.com/shiroemons/conreq"
-  version "0.2.0"
+  version "0.2.1"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.intel?
-      url "https://github.com/shiroemons/conreq/releases/download/v0.2.0/conreq_Darwin_x86_64.tar.gz"
-      sha256 "7ce56e514ba8053c5d681499dd590fc31b15accde52f26d2ac104771986154d1"
+      url "https://github.com/shiroemons/conreq/releases/download/v0.2.1/conreq_Darwin_x86_64.tar.gz"
+      sha256 "284c9d54382c79195a0cdab812ddd896b3fb39cd16d7de3fa60bcdbd9e9ea82d"
 
       def install
         bin.install "conreq"
       end
     end
     if Hardware::CPU.arm?
-      url "https://github.com/shiroemons/conreq/releases/download/v0.2.0/conreq_Darwin_arm64.tar.gz"
-      sha256 "dce26190acc14c93f7a0181a15c64e5fd80d2f1ca6c4fd7eb51842f395cde32d"
+      url "https://github.com/shiroemons/conreq/releases/download/v0.2.1/conreq_Darwin_arm64.tar.gz"
+      sha256 "b51c4cb0ec44ed2c0214431fe9feaa83fe224c32d0372a8a559be2e8c09f4334"
 
       def install
         bin.install "conreq"
@@ -29,15 +29,15 @@ class Conreq < Formula
 
   on_linux do
     if Hardware::CPU.intel? and Hardware::CPU.is_64_bit?
-      url "https://github.com/shiroemons/conreq/releases/download/v0.2.0/conreq_Linux_x86_64.tar.gz"
-      sha256 "8b2b2bfbb568b303df48ca86d2d9a368d8a8d83add91ff5bb560123f9fa64ea0"
+      url "https://github.com/shiroemons/conreq/releases/download/v0.2.1/conreq_Linux_x86_64.tar.gz"
+      sha256 "49436f662cf5609190a36ed39fa25020e2ce7841a8597a4aef006c7db6e56603"
       def install
         bin.install "conreq"
       end
     end
     if Hardware::CPU.arm? and Hardware::CPU.is_64_bit?
-      url "https://github.com/shiroemons/conreq/releases/download/v0.2.0/conreq_Linux_arm64.tar.gz"
-      sha256 "59ee87c349bdd3331aba6396555b8ab1244eb7215196bf81ed2db091729ccefb"
+      url "https://github.com/shiroemons/conreq/releases/download/v0.2.1/conreq_Linux_arm64.tar.gz"
+      sha256 "c36b483de413bf69fbc9f9a3eadfda223605a7d3e714dc48073d017f9c8e3f68"
       def install
         bin.install "conreq"
       end

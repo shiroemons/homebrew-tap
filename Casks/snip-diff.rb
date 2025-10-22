@@ -1,6 +1,6 @@
 cask "snip-diff" do
-  version "2025.10.8"
-  sha256 "fbde2717207640c791ff1bde971e951e5aca86037587408cc461905147eb5f4a"
+  version "2025.10.9"
+  sha256 "91fe56a36681730d2e65df9b5fd351084171f2f477b922f370ccb774cae70102"
 
   url "https://github.com/shiroemons/snip_diff/releases/download/v#{version}/SnipDiff-#{version}-universal.dmg"
   name "SnipDiff"

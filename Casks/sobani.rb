@@ -1,8 +1,8 @@
 cask "sobani" do
-  version "202602.21"
-  sha256 "1a3eca79e783a6507a9516210dd565b9d2b23aefef33a4cd76be6dea38541d61"
+  version "202602.22"
+  sha256 "68b8cb0e59cb9f4040d9414567410033497e9c5858dd77f1da5e5d34b7720b85"
 
-  url "https://github.com/shiroemons/sobani/releases/download/v#{version}/Sobani-universal.zip"
+  url "https://github.com/shiroemons/sobani/releases/download/v#{version}/Sobani-universal.dmg"
   name "Sobani"
   desc "Desktop mascot app that displays character images"
   homepage "https://github.com/shiroemons/sobani"

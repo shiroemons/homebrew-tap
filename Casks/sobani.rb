@@ -1,6 +1,6 @@
 cask "sobani" do
-  version "202603.20"
-  sha256 "1dee34bdc69882bcde7e5ceeaa591ae6809fce24716b2c9a26bc521c6ad6bea6"
+  version "202603.22"
+  sha256 "d280ce4cf9988008ece2eb6713b4e2f6de2be174a4c1b26de6c63bcff152e992"
 
   url "https://github.com/shiroemons/sobani/releases/download/v#{version}/Sobani-universal.dmg"
   name "Sobani"

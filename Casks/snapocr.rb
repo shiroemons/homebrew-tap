@@ -1,6 +1,6 @@
 cask "snapocr" do
-  version "0.1.9"
-  sha256 "8d2062153bf4e012ff263a336341152a6ceb84ebf1918911312cf8d6f660078a"
+  version "0.1.10"
+  sha256 "a1264f125f0f9482bfef36a38d3cd0ece0f191cf02bdc06cb3fe6c4de42e4e49"
 
   url "https://github.com/shiroemons/snapocr/releases/download/v#{version}/SnapOCR-#{version}.dmg"
   name "SnapOCR"

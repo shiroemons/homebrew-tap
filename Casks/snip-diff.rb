@@ -1,6 +1,6 @@
 cask "snip-diff" do
-  version "2025.11.3"
-  sha256 "e11726e52953be9286d5049e28a8f1d055a1f4cf332d71da51481adbac982461"
+  version "2026.10.1"
+  sha256 "c286960a4a0ae83d272b6b859c0ad0fd00e0a1eb6f91f9b34f8f5bc2c6ab4073"
 
   url "https://github.com/shiroemons/snip_diff/releases/download/v#{version}/SnipDiff-#{version}-universal.dmg"
   name "SnipDiff"
@@ -11,6 +11,8 @@ cask "snip-diff" do
     url :url
     strategy :github_latest
   end
+
+  depends_on macos: ">= :ventura"
 
   app "SnipDiff.app"
 

@@ -1,10 +1,10 @@
 cask "sobani" do
-  version "202611.0"
-  sha256 "d5b5591a06cc7d97b0fe51d1fa865b0e7bfd3b4740d5b778caab3d5219fdc5f6"
+  version "202611.1"
+  sha256 "8039aba953a5ae64f3c116889642663d1114bfd9ad0408af97ea08adef8f214c"
 
   url "https://github.com/shiroemons/sobani/releases/download/v#{version}/Sobani-universal.dmg"
   name "Sobani"
-  desc "Desktop mascot app that displays character images"
+  desc "Desktop acrylic stand app that displays character images"
   homepage "https://github.com/shiroemons/sobani"
 
   livecheck do
